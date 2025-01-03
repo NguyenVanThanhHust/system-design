@@ -6,4 +6,14 @@ Install kubernetes
 ```
 ```
 
+Build docker image
+```
+docker build -t main_app_img .
+```
+Run docker image 
+```
+docker run main_app_img
+```
+
 ## References
+https://fastapi.tiangolo.com/deployment/docker/
